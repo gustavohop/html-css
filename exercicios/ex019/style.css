@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* em HTML e id    = em CSS e # ( so em um elemento, apenas uma vez por pagina)
+   em HTML e clss  = em CSS e . ( pode varios elementos )
+*/
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1e402f;
+}
+
+#principal {
+    text-align: center;
+    background-image: linear-gradient(to bottom , #3c805e, rgba(0, 0, 0, 0.877)) ;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #592c2879;
+    padding: 10px;
+    margin: auto;
+}
+
+#HTML {
+    color: red;
+}
+
+h2 {
+    color: #3c805e;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: rgb(126, 126, 9);
+}
+
+.avancado {
+    color: red;
+}
+.destaque {
+    background-color: rgba(221, 221, 112, 0.527);
+}

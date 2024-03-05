@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Video hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+
+    <video src="midia/pexels-video.mp4" width="500" controls></video>
+
+    <h1>Outra forma de add video, e a forma mais correta</h1>
+    <p>video abaixo</p>
+    <video width="700" poster="imagens/henrqielgbt.png" controls>
+        <source src="midia/pexels-video.mp4" type="video/mp4">
+        <source src="midia/pexels-video.m4v" type="video/mp4">
+        <source src="midia/pexels-video.webm" type="video/webm">
+        <source src="midia/pexels-video.ogv" type="video/ogg">
+        <p>Seu navegador nao tem conpatibilidade com reproducao de videos.</p>
+    </video>
+
+    <h1>inserindo video do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-Fi_aeFoXIk?si=ogVq_ZEvJhHDGj2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
